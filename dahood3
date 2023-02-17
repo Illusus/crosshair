@@ -59,7 +59,7 @@ if typeof(getgenv().crosshairrs) == "RBXScriptConnection" then
     getgenv().crosshairrs:Disconnect()
 end
 local supported = false
-for i,v in next, {286090429,301549746,4292776423,292439477,299659045,4716045691,3233893879,2377868063,2555870920,4651779470,606849621,2916899287,443406476,1224212277,3527629287,388599755} do
+for i,v in next, {2788229376} do
     if game.PlaceId == v then
         supported = true
     end
